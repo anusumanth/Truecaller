@@ -1,0 +1,3 @@
+exports.registerduser=function(req, res) {
+    res.send([{name:'anu'}, {name:'achinth'}, {name:'sumanth'}]);
+};
