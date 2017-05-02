@@ -4,7 +4,7 @@ var connection = mysql.createConnection({ // Mysql Connection
     host : 'localhost',
     user : 'root',
     password : 'SqlRoot3!',
-    database : 'TRUECALLER',
+    database : 'TRUCALLER',
 });
 
-module.exports=connection
+module.exports=connection;

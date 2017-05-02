@@ -10,9 +10,9 @@ var app = express();
 
 
 
-app.get('/users/:mdn?', users.registerduser)
+app.get('/getuser/:mdn?', users.getuser)
 app.use(bodyParser.text())
-app.post('/users',jsonParser, users.updateuser)
+app.post('/registerUser',jsonParser, users.registerUser)
 
 var server = app.listen(8081, function () {
    var host = server.address().address
